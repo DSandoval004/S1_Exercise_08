@@ -9,7 +9,7 @@
    Author: Diego Sandoval
    Date:   12/6/18
 
-   Filename:         dlr_tables.css
+   Filename:    dlr_tables.css
 
 */
 
@@ -26,6 +26,8 @@ table.schedule {
 table.schedule th,
 table.schedule td {
     border: 1px solid gray;
+    padding: 5px;
+    vertical-align: top;
 }
 
 /* Table Caption Styles */
@@ -43,6 +45,14 @@ table.schedule thead {
 table.schedule tfoot {
     background: black;
     color: white;
+}
+
+table.schedule thead tr {
+    height: 30px;
+}
+
+table.schedule tbody tr {
+    height: 40px;
 }
 
 /* Column Group Styles */
